@@ -12,27 +12,27 @@
 
 
 
-<body>
+<body class="hero-img">
 
-  <header class="container-fluid">
+  <header class="container-fluid bg-danger text-light">
     <div class="row">
-      <div class="col-12 text-center mt-5 mb-3">
+      <div class="col-12 text-center mt-5 mb-2">
         <h1>Scoreboard</h1>
       </div>
     </div>
   </header>
 
   <main class="container-fluid">
-    <div class="row d-flex justify-content-around">
-      <div class="col-4 p-2 bg-success text-center mb-4">
-        <h2>Home</h2>
-        <h3 class="border border-4">Score Goes Here:
+    <div class="row d-flex justify-content-around mt-4 text-light">
+      <div class="col-4 p-2 bg-success text-center mb-4 rounded score-card">
+        <h2 class="p-5">Home</h2>
+        <h3 class="border border-4 rounded shadow py-3">
           <span id='homeStartScore'></span>
         </h3>
       </div>
-      <div class="col-4 p-2 bg-success text-center mb-4">
-        <h2>Away</h2>
-        <h3 class="border border-4">Score Goes Here:
+      <div class="col-4 p-2 bg-success text-center mb-4 rounded score-card">
+        <h2 class="p-5">Away</h2>
+        <h3 class="border border-4 rounded shadow py-3">
           <span id="awayStartScore"></span>
         </h3>
       </div>
