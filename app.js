@@ -30,9 +30,25 @@ function resetScoreboard() {
   draw()
 }
 
+function bigIncreaseHomeScore() {
+  increaseHomeScore()
+  increaseHomeScore()
+  increaseHomeScore()
+  console.log('Big Points bby');
+  draw()
+}
+
+function bigIncreaseAwayScore() {
+  increaseAwayScore()
+  increaseAwayScore()
+  increaseAwayScore()
+  draw()
+}
+
+
 function draw() {
   // @ts-ignore
-  document.getElementById('homeStartScore').innerText = initialHomeScore.toString()
+  document.getElementById('homeStartScore').innerText = initialHomeScore
   // @ts-ignore
   document.getElementById('awayStartScore').innerText = initialAwayScore
 }
