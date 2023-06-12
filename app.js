@@ -23,6 +23,13 @@ function increaseAwayScore() {
   draw()
 }
 
+function resetScoreboard() {
+  initialHomeScore = 0
+  initialAwayScore = 0
+
+  draw()
+}
+
 function draw() {
   // @ts-ignore
   document.getElementById('homeStartScore').innerText = initialHomeScore.toString()
